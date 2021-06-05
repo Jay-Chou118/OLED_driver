@@ -6,13 +6,21 @@ Use STM32 to control the basic configuration of the OLED display
 Pin definitions in programs can be modified to be compatible with others
 
 /*
-	OLED0.96                  							STM32
-	GND        				<----------->					GND
-	VCC        				<----------->					3.3V
-	SCL             	<----------->					PE3
-	SDA        				<----------->					PE4
-	DC(Data/Command)	<----------->					PE0
-	RST								<----------->					PE2
+
+	OLED0.96                  					STM32
+	
+	GND        			<----------->			GND
+	
+	VCC        			<----------->			3.3V
+
+	SCL             		<----------->			PE3
+	
+	SDA        			<----------->			PE4
+	
+	DC(Data/Command)	        <----------->			PE0
+	
+	RST				<----------->			PE2
+	
 */
 
 
